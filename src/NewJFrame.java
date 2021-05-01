@@ -41,6 +41,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel1.setText("Cities");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select City" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
 
         jButton1.setFont(new java.awt.Font("Segoe UI Light", 1, 12)); // NOI18N
         jButton1.setText("Please Select a City");
@@ -102,6 +107,10 @@ public class NewJFrame extends javax.swing.JFrame {
             ex.printStackTrace();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments
